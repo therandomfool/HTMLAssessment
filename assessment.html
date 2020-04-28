@@ -5,7 +5,10 @@
     <title></title>
   </head>
   <body>
+    <div class="assessment">
     <div class="container">
+
+
 
 
     <h2>TEXT</h2>
@@ -26,11 +29,9 @@
         </td>
 
         <tr>
-          <th colspan="2">Team Nam e</th>
+          <th colspan="2">Team Name</th>
           <th colspan="2">First Half</th>
-
           <th colspan="2">Second Half</th>
-
           <th>Final</th>
         </tr>
 
@@ -73,7 +74,7 @@
     <h2>LIST</h2>
 <ul>
 
-  <li> <img src="seahawk.png" alt="Seattle Seahawks" width="50" height="60"> </li>
+  <li> <img src="seahawk.png" alt="Seattle Seahawks" width="60" height="60"> </li>
   <a href="https://www.seahawks.com/">Seattle Seahawks</a>
   <ul>
     <li>Coach: Pete Carroll</li>
@@ -98,9 +99,38 @@
   </ul>
 
 </ul>
+<br>
 
 
+<h2>LIST</h2>
+  <form class="" action="assessment.html" method="post">
+    First: <input type = "text" name = "first_name" />
+    Last <input type = "text" name = "last_name" />
+    <br>
+    <label>Favorite Sport:</label>
+    <br>
+          <select id = "myList">
+            <option value = "1">Hackey Sack</option>
+            <option value = "2">Frisbee Golf</option>
+            <option value = "3">Beer Olympics</option>
+            <option value = "4">Drum Circle</option>
+          </select>
+          <br>
+      <label>I have: </label>
+      <input type="checkbox" name="Ihave" value="Attended"> Attended
+      <input type="checkbox" name="Ihave" value="Played"> Played
+      <input type="checkbox" name="Ihave" value="Coached"> Coached
+      <input type="checkbox" name="Ihave" value="Bet On"> Bet on this sport.
+      <br>
+      <label>For this sport I prefer the: </label>
+          <input type="radio" name="favorite_pet" value="Amateur">Amateur
+          <input type="radio" name="favorite_pet" value="College">College
+          <input type="radio" name="favorite_pet" value="Professional">Professional  <br>
+          <input type="submit" value="Submit Query">
+          <br>
 
+  </form>
+  </div>
 </div>
   </body>
 </html>
