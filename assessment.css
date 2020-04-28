@@ -1,0 +1,25 @@
+h1, h2, h3, h4, h5 {
+color: #ff2f00;
+}
+
+th {
+  background-color: #F1F1D4 !important;
+  font-weight: bolder;
+  color: blue;
+}
+
+caption, #scoreBoard, th, td{
+  border: 2px crimson groove;
+  text-align: center;
+  border-radius: 9%;
+}
+
+li {
+  list-style-type: square;
+}
+
+
+  a:hover {
+    background-color: #64d9ed;
+  text-decoration: none;
+  }
