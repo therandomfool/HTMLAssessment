@@ -15,20 +15,28 @@ caption, #scoreBoard, th, td{
   border-radius: 9%;
 }
 
-li {
-  list-style-type: square;
-
+  blockquote {
+    background: 	#8B0000;
+    color: goldenrod;
 }
 
 
+
+  li {
+  list-style-type: square ;
+
+}
+
+  #checkbox-grid > li {
+    list-style: none;
+}
+
   a:hover {
     background-color: #64d9ed;
-  text-decoration: none;
+    text-decoration: none;
   }
 
-  li, label, input{
-       list-style: none;
-  }
+
 
 ul#teamRoster > li:first-child{
     background: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
@@ -37,8 +45,8 @@ ul#teamRoster > li:first-child{
     background-size: contain;
 
     z-index: -1;
-    opacity: 0.65;
-    color:white;
+    opacity: 0.55;
+    color:	#F1F1D4;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-weight: 700;
 
@@ -49,8 +57,8 @@ ul#teamRoster > li:first-child{
       background-position: left;
       background-size: contain;
       z-index: -1;
-      opacity: 0.65;
-      color:white;
+      opacity: 0.55;
+      color: #F1F1D4;
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       font-weight: 700;
 
